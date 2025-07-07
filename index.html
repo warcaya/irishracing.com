@@ -13,7 +13,7 @@
 
         <!--Relevant loadAds + LoadPrebid Config-->
         <script>
-                (function loadAds() {
+                function loadAds() {
                         window.relevantDigital = window.relevantDigital || {};
                         relevantDigital.cmd = relevantDigital.cmd || [];
                         relevantDigital.cmd.push(function() {
@@ -27,7 +27,7 @@
                                         noSlotReload: false, // set true to only load ad slots that have never been loaded 
                                 });
                         });
-                })();
+                };
 
                 //please check the call to the function loadAds at the end of this document.
         </script>
